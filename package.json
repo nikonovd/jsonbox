@@ -13,7 +13,9 @@
   "dependencies": {
     "JSONStream": "^1.1.4",
     "app-root-dir": "^1.0.2",
+    "asyncawait": "^1.0.6",
     "lodash.assign": "^4.2.0",
+    "lodash.get": "^4.4.2",
     "mkdirp": "^0.5.1",
     "q": "^1.4.1",
     "rmdir": "^1.2.0",
