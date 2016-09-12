@@ -1,0 +1,30 @@
+{
+  "name": "jsonbox",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "repository": "https://github.com/nikonovd/jsonbox",
+  "author": "Dmitri Nikonov",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha $(find ./lib -name '*Test.js' | grep /__tests__/)"
+  },
+  "dependencies": {
+    "JSONStream": "^1.1.4",
+    "app-root-dir": "^1.0.2",
+    "lodash.assign": "^4.2.0",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1",
+    "rmdir": "^1.2.0",
+    "set-default-value": "0.0.8",
+    "tcomb": "^3.2.13",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  }
+}
